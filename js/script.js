@@ -33,13 +33,23 @@
 // alert(toFerheneit());
 
 // correction convert celcius to Ferhenreit
-let F = parseInt(prompt('type your ferhenreit to be converted to celcisu here'));
+// let F = parseInt(prompt('type your ferhenreit to be converted to celcisu here'));
 
-function toCelcius() {
-    let ferhenreit = (F * 9/5) + 32;
+// function toCelcius() {
+//     let ferhenreit = (F * 9/5) + 32;
 
-    return ferhenreit;
+//     return ferhenreit;
+// }
+// alert(toCelcius());
+
+// convert from gallon to litre
+let G = parseInt(prompt('type your gallon to convert to litre here'));
+
+function convertG(){
+    let litre = (G) * 3.78;
+
+    return litre;
 }
-alert(toCelcius());
+alert(convertG());
 
 
