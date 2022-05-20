@@ -45,8 +45,10 @@
 // convert from gallon to litre
 let G = parseInt(prompt('type your gallon to convert to litre here'));
 
+let L = 3.78;
+
 function convertG(){
-    let litre = (G) * 3.78;
+    let litre = G * L;
 
     return litre;
 }
