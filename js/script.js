@@ -1,8 +1,8 @@
-//write a function to convert celsius to fahrenheit
+//write a function to convert fahrenheit to celsius 
 
 // function convertF(celsius){
 
-//     var fahrenheit = celsius * 9/5  + 32;
+//     let fahrenheit = (celsius * 9/5)  + 32;
 
 //     return fahrenheit;
 // }
@@ -12,9 +12,9 @@
 
 
 
-//write a function to convert fahrenheit to celsius 
+//write a function to convert celsius  to fahrenheit 
 function convertC(fahrenheit){
-    var celsius = fahrenheit - 32 * 5/9;
+    let celsius = (fahrenheit - 32) * 5/9;
 
     return celsius;
 }
