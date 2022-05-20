@@ -13,14 +13,33 @@
 
 
 //write a function to convert celsius  to fahrenheit 
-function convertC(fahrenheit){
-    let celsius = (fahrenheit - 32) * 5/9;
+// function convertC(fahrenheit){
+//     let celsius = (fahrenheit - 32) * 5/9;
 
-    return celsius;
+//     return celsius;
+// }
+// console.log(convertC(30));
+// document.write(convertC(30));
+// alert(convertC(30));
+
+// correction convert ferhenreit to celcius
+// let C = parseInt(prompt('type your celcius to be converted to ferhereit here'));
+
+// function toFerheneit() {
+//     let celcius = (C - 3) * 5/9;
+
+//     return celcius;
+// }
+// alert(toFerheneit());
+
+// correction convert celcius to Ferhenreit
+let F = parseInt(prompt('type your ferhenreit to be converted to celcisu here'));
+
+function toCelcius() {
+    let ferhenreit = (F * 9/5) + 32;
+
+    return ferhenreit;
 }
-console.log(convertC(30));
-document.write(convertC(30));
-alert(convertC(30));
-
+alert(toCelcius());
 
 
